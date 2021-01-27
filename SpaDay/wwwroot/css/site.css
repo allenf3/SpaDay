@@ -18,6 +18,34 @@ a {
   border-color: #1861ac;
 }
 
+.np-color {
+    height: 75px;
+    width: 75px;
+    margin: 20px;
+    display: block;
+    margin-bottom:0px;
+}
+
+.np-label {
+    text-align:center;
+}
+
+#red {
+    background-color: red;
+}
+
+#blue {
+    background-color: cornflowerblue;
+}
+
+#orange {
+    background-color: coral;
+}
+
+#green {
+    background-color: aquamarine;
+}
+
 .nav-pills .nav-link.active, .nav-pills .show > .nav-link {
   color: #fff;
   background-color: #1b6ec2;
