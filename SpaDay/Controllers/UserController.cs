@@ -21,7 +21,7 @@ namespace SpaDay.Controllers
         }
 
         [HttpPost]
-        public IActionResult SubmitAddUserForm(User newUser, string verify = "joepass")
+        public IActionResult SubmitAddUserForm(User newUser, string verify)
         {
             if (newUser.Password == verify)
             {
